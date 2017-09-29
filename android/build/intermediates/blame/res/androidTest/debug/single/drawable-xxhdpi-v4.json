@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/jono_allen/Development/projects/intertek/nativeapp/node_modules/react-native-device-info/android/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png",
+        "source": "/Users/jono_allen/.android/build-cache/e721c44e6db89cabb04ff0f777563ca5ceae1703/output/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/jono_allen/Development/projects/intertek/nativeapp/node_modules/react-native-device-info/android/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/googleg_standard_color_18.png",
+        "source": "/Users/jono_allen/.android/build-cache/e721c44e6db89cabb04ff0f777563ca5ceae1703/output/res/drawable-xxhdpi-v4/googleg_standard_color_18.png"
+    },
+    {
+        "merged": "/Users/jono_allen/Development/projects/intertek/nativeapp/node_modules/react-native-device-info/android/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png",
+        "source": "/Users/jono_allen/.android/build-cache/e721c44e6db89cabb04ff0f777563ca5ceae1703/output/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/jono_allen/Development/projects/intertek/nativeapp/node_modules/react-native-device-info/android/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/googleg_disabled_color_18.png",
+        "source": "/Users/jono_allen/.android/build-cache/e721c44e6db89cabb04ff0f777563ca5ceae1703/output/res/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "/Users/jono_allen/Development/projects/intertek/nativeapp/node_modules/react-native-device-info/android/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png",
+        "source": "/Users/jono_allen/.android/build-cache/e721c44e6db89cabb04ff0f777563ca5ceae1703/output/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/jono_allen/Development/projects/intertek/nativeapp/node_modules/react-native-device-info/android/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png",
+        "source": "/Users/jono_allen/.android/build-cache/e721c44e6db89cabb04ff0f777563ca5ceae1703/output/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+    }
+]

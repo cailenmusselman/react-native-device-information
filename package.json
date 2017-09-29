@@ -1,0 +1,115 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "react-native-device-information",
+        "scope": null,
+        "escapedName": "react-native-device-information",
+        "name": "react-native-device-information",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/jono_allen/Development/projects/intertek/nativeapp"
+    ]
+  ],
+  "_from": "react-native-device-info@latest",
+  "_id": "react-native-device-info@0.11.0",
+  "_inCache": true,
+  "_location": "/react-native-device-information",
+  "_nodeVersion": "7.6.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/react-native-device-info-0.11.0.tgz_1501682267089_0.5742874436546117"
+  },
+  "_npmUser": {
+    "name": "gantman",
+    "email": "gantman+npm@gmail.com"
+  },
+  "_npmVersion": "4.1.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-native-device-information",
+    "scope": null,
+    "escapedName": "react-native-device-information",
+    "name": "react-native-device-information",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-device-info/-/react-native-device-info-0.11.0.tgz",
+  "_shasum": "e96dd0e3f8a7d7e3022c1f441f51fa912fdc7444",
+  "_shrinkwrap": null,
+  "_spec": "react-native-device-info",
+  "_where": "/Users/jono_allen/Development/projects/intertek/nativeapp",
+  "author": {
+    "name": "Rebecca Hughes",
+    "email": "rebecca@learnium.net",
+    "url": "https://github.com/rebeccahughes"
+  },
+  "bugs": {
+    "url": "https://github.com/rebeccahughes/react-native-device-info/issues"
+  },
+  "contributors": [
+    {
+      "name": "Gant Laborde",
+      "email": "gant@infinite.red",
+      "url": "https://github.com/gantman"
+    }
+  ],
+  "dependencies": {},
+  "description": "Get device information using react-native",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "e96dd0e3f8a7d7e3022c1f441f51fa912fdc7444",
+    "tarball": "https://registry.npmjs.org/react-native-device-info/-/react-native-device-info-0.11.0.tgz"
+  },
+  "gitHead": "1aafc6f0b20d7cd6f0939ea5370e9899e4914c93",
+  "homepage": "https://github.com/rebeccahughes/react-native-device-info#readme",
+  "keywords": [
+    "react-component",
+    "react-native",
+    "ios",
+    "android",
+    "windows",
+    "device",
+    "events",
+    "cocoapod"
+  ],
+  "license": "MIT",
+  "main": "deviceinformation.js",
+  "maintainers": [
+    {
+      "name": "gantman",
+      "email": "gantman+npm@gmail.com"
+    },
+    {
+      "name": "jeroenbourgois",
+      "email": "info@jeroenbourgois.be"
+    },
+    {
+      "name": "lilach",
+      "email": "i.am.red@gmail.com"
+    },
+    {
+      "name": "rebeccahughes",
+      "email": "rebecca@learnium.net"
+    }
+  ],
+  "name": "react-native-device-information",
+  "optionalDependencies": {},
+  "readme": "# react-native-device-info\n\n[![npm version](https://badge.fury.io/js/react-native-device-info.svg)](http://badge.fury.io/js/react-native-device-info)\n\nDevice Information for [React Native](https://github.com/facebook/react-native)\n\n## Install\n\n```shell\nnpm install --save react-native-device-info\n```\n\n#### RN > 0.47 use 0.11 or higher\n\n## Automatically link\n\n#### With React Native 0.27+\n\n```shell\nreact-native link react-native-device-info\n```\n\n#### With older versions of React Native\n\nYou need [`rnpm`](https://github.com/rnpm/rnpm) (`npm install -g rnpm`)\n\n```shell\nrnpm link react-native-device-info\n```\n\n## Manually link\n\n### iOS (via Cocoa Pods)\nAdd the following line to your build targets in your `Podfile`\n\n`pod 'RNDeviceInfo', :path => '../node_modules/react-native-device-info'`\n\nThen run `pod install`\n\n### iOS (without Cocoa Pods)\n\nIn XCode, in the project navigator:\n- Right click _Libraries_\n- Add Files to _[your project's name]_\n- Go to `node_modules/react-native-device-info`\n- Add the `.xcodeproj` file\n\nIn XCode, in the project navigator, select your project.\n- Add the `libRNDeviceInfo.a` from the _deviceinfo_ project to your project's _Build Phases ➜ Link Binary With Libraries_\n- Click `.xcodeproj` file you added before in the project navigator and go the _Build Settings_ tab. Make sure _All_ is toggled on (instead of _Basic_).\n- Look for _Header Search Paths_ and make sure it contains both `$(SRCROOT)/../react-native/React` and `$(SRCROOT)/../../React`\n- Mark both as recursive (should be OK by default).\n\nRun your project (Cmd+R)\n\n(Thanks to @brysgo for writing the instructions)\n\n### Android\n\n- in `android/app/build.gradle`:\n\n```diff\ndependencies {\n    ...\n    compile \"com.facebook.react:react-native:+\"  // From node_modules\n+   compile project(':react-native-device-info')\n}\n```\n\n- in `android/settings.gradle`:\n\n```diff\n...\ninclude ':app'\n+ include ':react-native-device-info'\n+ project(':react-native-device-info').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-device-info/android')\n```\n\n#### With React Native 0.29+\n\n- in `MainApplication.java`:\n\n```diff\n+ import com.learnium.RNDeviceInfo.RNDeviceInfo;\n\n  public class MainApplication extends Application implements ReactApplication {\n    //......\n\n    @Override\n    protected List<ReactPackage> getPackages() {\n      return Arrays.<ReactPackage>asList(\n+         new RNDeviceInfo(),\n          new MainReactPackage()\n      );\n    }\n\n    ......\n  }\n```\n\n#### With older versions of React Native:\n\n- in `MainActivity.java`:\n\n```diff\n+ import com.learnium.RNDeviceInfo.RNDeviceInfo;\n\n  public class MainActivity extends ReactActivity {\n    ......\n\n    @Override\n    protected List<ReactPackage> getPackages() {\n      return Arrays.<ReactPackage>asList(\n+       new RNDeviceInfo(),\n        new MainReactPackage()\n      );\n    }\n  }\n```\n\n(Thanks to @chirag04 for writing the instructions)\n\n### Windows\n- Open the solution in Visual Studio for your Windows apps\n- right click your in the Explorer and click Add > Existing Project...\n- Navigate to `./<app-name>/node_modules/react-native-device-info/windows/RNDeviceInfo` and add `RNDeviceInfo.csproj`\n- this time right click on your React Native Windows app under your solutions directory and click Add > Reference...\n- check the `RNDeviceInfo` you just added and press ok\n- open up `MainPage.cs` for your app and edit the file like so:\n\n```diff\n+ using RNDeviceInfo;\n......\n            get\n            {\n                return new List<IReactPackage>\n                {\n                    new MainReactPackage(),\n+                   new RNDeviceInfoPackage(),\n                };\n            }\n```\n\n(Thanks to @josephan for writing the instructions)\n\n## Device Name\n\nIf you want to get the device name in Android add this to your `AndroidManifest.xml` (optional):\n\n```xml\n...\n<uses-permission android:name=\"android.permission.BLUETOOTH\"/>\n```\n\n## Release Notes\n\nSee [CHANGELOG.md](https://github.com/rebeccahughes/react-native-device-info/blob/master/CHANGELOG.md)\n\n## Example\n\n```js\nvar DeviceInfo = require('react-native-device-info');\n// or import DeviceInfo from 'react-native-device-info';\n```\n\n| Name                       | Method                           | Return                                                                                        | Notes                                                                                                            |\n| :------------------------- | :------------------------------- | :-------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------- |\n| Device Unique ID           | `getUniqueID()`                  | FCDBD8EF-62FC-4ECB-B2F5-92C9E79AC7F9                                                          | This is IDFV on iOS so it will change if all apps from the current apps vendor have been previously uninstalled. |\n| Device Manufacturer        | `getManufacturer()`              | Apple                                                                                         |                                                                                                                  |\n| Device Brand               | `getBrand()`                     | Apple / htc / Xiaomi                                                                          |                                                                                                                  |\n| Device Model               | `getModel()`                     | iPhone 6                                                                                      |                                                                                                                  |\n| Device ID                  | `getDeviceId()`                  | iPhone7,2                                                                                     | Or the board on Android e.g. goldfish                                                                            |\n| System Name                | `getSystemName()`                | iPhone OS                                                                                     |                                                                                                                  |\n| System Version             | `getSystemVersion()`             | 9.0                                                                                           |                                                                                                                  |\n| Bundle ID                  | `getBundleId()`                  | com.learnium.mobile                                                                           |                                                                                                                  |\n| Build Number               | `getBuildNumber()`               | 89                                                                                            |                                                                                                                  |\n| App Version                | `getVersion()`                   | 1.1.0                                                                                         |                                                                                                                  |\n| App Version (Readable)     | `getReadableVersion()`           | 1.1.0.89                                                                                      |                                                                                                                  |\n| Device Name                | `getDeviceName()`                | Becca's iPhone 6                                                                              |                                                                                                                  |\n| User Agent                 | `getUserAgent()`                 | Dalvik/2.1.0 (Linux; U; Android 5.1; Google Nexus 4 - 5.1.0 - API 22 - 768x1280 Build/LMY47D) |                                                                                                                  |\n| Device Locale              | `getDeviceLocale()`              | en-US                                                                                         |                                                                                                                  |\n| Device Country             | `getDeviceCountry()`             | US                                                                                            |                                                                                                                  |\n| Timezone                   | `getTimezone()`                  | America/Mexico_City                                                                           |                                                                                                                  |\n| App Instance ID            | `getInstanceID()`                |                                                                                               | ANDROID ONLY - see https://developers.google.com/instance-id/                                                    |\n| App is running in emulator | `isEmulator()`                   | true                                                                                          | if app is running in emulator return true                                                                        |\n| App is running on a tablet | `isTablet()`                     | true                                                                                          | if app is running on a tablet return true                                                                        |\n| PIN or fingerprint set     | `isPinOrFingerprintSet(callback)`|                                                                                               | Only supported in Android and iOS 9.0 and above\n\nSince the device setting for PIN/Fingerprint can be modified while the app is still open, this is available via callback instead of as a constant.  To use, pass a callback function in your javascript:\n\n```js\nRNDeviceInfo.isPinOrFingerprintSet(isPinOrFingerprintSet => {\n  if (!isPinOrFingerprintSet) {\n    ...\n  }\n}\n```\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rebeccahughes/react-native-device-info.git"
+  },
+  "scripts": {},
+  "typings": "./deviceinformation.d.ts",
+  "version": "0.11.0"
+}

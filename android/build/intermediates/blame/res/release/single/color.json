@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "/Users/jono_allen/Development/projects/intertek/nativeapp/custom_modules/react-native-device-information/android/build/intermediates/res/merged/release/color/switch_thumb_material_light.xml",
+        "source": "/Users/jono_allen/.android/build-cache/defd994c8aae2a4d612ef0c1ad6158409459f6ff/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Users/jono_allen/Development/projects/intertek/nativeapp/node_modules/react-native-device-info/android/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/jono_allen/.android/build-cache/defd994c8aae2a4d612ef0c1ad6158409459f6ff/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/Users/jono_allen/Development/projects/intertek/nativeapp/node_modules/react-native-device-info/android/build/intermediates/res/merged/release/color/switch_thumb_material_dark.xml",
+        "source": "/Users/jono_allen/.android/build-cache/defd994c8aae2a4d612ef0c1ad6158409459f6ff/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/jono_allen/Development/projects/intertek/nativeapp/node_modules/react-native-device-info/android/build/intermediates/res/merged/release/color/switch_thumb_material_light.xml",
+        "source": "/Users/jono_allen/.android/build-cache/defd994c8aae2a4d612ef0c1ad6158409459f6ff/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Users/jono_allen/Development/projects/intertek/nativeapp/custom_modules/react-native-device-information/android/build/intermediates/res/merged/release/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/jono_allen/.android/build-cache/defd994c8aae2a4d612ef0c1ad6158409459f6ff/output/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/jono_allen/Development/projects/intertek/nativeapp/custom_modules/react-native-device-information/android/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/jono_allen/.android/build-cache/defd994c8aae2a4d612ef0c1ad6158409459f6ff/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/Users/jono_allen/Development/projects/intertek/nativeapp/node_modules/react-native-device-info/android/build/intermediates/res/merged/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/jono_allen/.android/build-cache/e721c44e6db89cabb04ff0f777563ca5ceae1703/output/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/jono_allen/Development/projects/intertek/nativeapp/node_modules/react-native-device-info/android/build/intermediates/res/merged/release/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/jono_allen/.android/build-cache/e721c44e6db89cabb04ff0f777563ca5ceae1703/output/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/Users/jono_allen/Development/projects/intertek/nativeapp/custom_modules/react-native-device-information/android/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/jono_allen/.android/build-cache/defd994c8aae2a4d612ef0c1ad6158409459f6ff/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/jono_allen/Development/projects/intertek/nativeapp/node_modules/react-native-device-info/android/build/intermediates/res/merged/release/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/jono_allen/.android/build-cache/defd994c8aae2a4d612ef0c1ad6158409459f6ff/output/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/jono_allen/Development/projects/intertek/nativeapp/custom_modules/react-native-device-information/android/build/intermediates/res/merged/release/color/abc_search_url_text.xml",
+        "source": "/Users/jono_allen/.android/build-cache/defd994c8aae2a4d612ef0c1ad6158409459f6ff/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Users/jono_allen/Development/projects/intertek/nativeapp/node_modules/react-native-device-info/android/build/intermediates/res/merged/release/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/jono_allen/.android/build-cache/defd994c8aae2a4d612ef0c1ad6158409459f6ff/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/jono_allen/Development/projects/intertek/nativeapp/custom_modules/react-native-device-information/android/build/intermediates/res/merged/release/color/abc_primary_text_material_light.xml",
+        "source": "/Users/jono_allen/.android/build-cache/defd994c8aae2a4d612ef0c1ad6158409459f6ff/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/jono_allen/Development/projects/intertek/nativeapp/node_modules/react-native-device-info/android/build/intermediates/res/merged/release/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/jono_allen/.android/build-cache/defd994c8aae2a4d612ef0c1ad6158409459f6ff/output/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/jono_allen/Development/projects/intertek/nativeapp/node_modules/react-native-device-info/android/build/intermediates/res/merged/release/color/abc_primary_text_material_light.xml",
+        "source": "/Users/jono_allen/.android/build-cache/defd994c8aae2a4d612ef0c1ad6158409459f6ff/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/jono_allen/Development/projects/intertek/nativeapp/custom_modules/react-native-device-information/android/build/intermediates/res/merged/release/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/jono_allen/.android/build-cache/defd994c8aae2a4d612ef0c1ad6158409459f6ff/output/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/jono_allen/Development/projects/intertek/nativeapp/custom_modules/react-native-device-information/android/build/intermediates/res/merged/release/color/switch_thumb_material_dark.xml",
+        "source": "/Users/jono_allen/.android/build-cache/defd994c8aae2a4d612ef0c1ad6158409459f6ff/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/jono_allen/Development/projects/intertek/nativeapp/node_modules/react-native-device-info/android/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/jono_allen/.android/build-cache/defd994c8aae2a4d612ef0c1ad6158409459f6ff/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/jono_allen/Development/projects/intertek/nativeapp/node_modules/react-native-device-info/android/build/intermediates/res/merged/release/color/abc_search_url_text.xml",
+        "source": "/Users/jono_allen/.android/build-cache/defd994c8aae2a4d612ef0c1ad6158409459f6ff/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Users/jono_allen/Development/projects/intertek/nativeapp/custom_modules/react-native-device-information/android/build/intermediates/res/merged/release/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/jono_allen/.android/build-cache/defd994c8aae2a4d612ef0c1ad6158409459f6ff/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/jono_allen/Development/projects/intertek/nativeapp/node_modules/react-native-device-info/android/build/intermediates/res/merged/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/jono_allen/.android/build-cache/e721c44e6db89cabb04ff0f777563ca5ceae1703/output/res/color/common_google_signin_btn_text_dark.xml"
+    }
+]
